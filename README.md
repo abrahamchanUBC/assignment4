@@ -1,6 +1,7 @@
 # Assignment 4
 
-This is a continuation of [Assignment 3](https://github.com/erkartik91/assignment3). As a part of this assignment, you will focus on interacting with the remote server to fetch the product items. You will need to build on your previous code - no code will be provided us for this assignment. 
+This is a continuation of [Assignment 3](https://github.com/erkartik91/assignment3). As a part of this assignment, you will focus on interacting with the remote server (https://cpen400a.herokuapp.com/products)
+to fetch the product items. You will need to build on your previous code - no code will be provided us for this assignment. 
 
 ## Tasks
 
