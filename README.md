@@ -23,6 +23,10 @@ to fetch the product items. You will need to build on your previous code - no co
 
 4. **Update Cart modal and show total price:** Once you have the updated cart information, you will need to update the cart information shown to the user. Also, you will alert the uset with the total amount due (based on the cart's contents).
 
+## Bonus Task
+The code for the server used for the server side application, is made available at https://github.com/erkartik91/cpen400. The instructions to run the server locally are available in the readme file.
+You need to have the server up and running in your local machine as well as you will need to host the same application on Heroku servers. You can create a free account to deploy this application. The task is only considered complete, if you have it setup on your local machine as well as on Heroku. The instructions to run on local machine are provided in the read me file. For deploying to Heroku, please follow the instructions given on their website.
+
 ## Submission instructions:
 
 * Add a folder called **assignment4** in your github repo.
