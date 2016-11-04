@@ -21,7 +21,7 @@ to fetch the product items. You will need to build on your previous code - no co
 
 3. **Synchronize the price / quantity before checkout:** (5 points) In your show cart modal you need to present the user with a checkout button. When the user clicks on checkout, you will need to make sure that the products are still available in the back store and the prices are updated. You will do that by making another AJAX call to the same url. Therefore, when the user clicks on checkout, you will alert the user with the message showing that you are confirming the final total price as well as the availability.  If there is any price change, you will need to alert the user for each product for which the price changed. For any of the selected products, if the quantity that the user ordered is not available any more, you will change the number of products in the cart to the now available quantity. You will also need to alert the user about the updated quantity as well. The cart variable should also be updated to reflect the revised prices/quantity.
 
-4. **Update Cart modal and show total price:** (2 points) Once you have the updated cart information, you will need to update the cart information shown to the user. Also, you will alert the uset with the total amount due (based on the cart's contents).
+4. **Update Cart modal and show total price:** (2 points) Once you have the updated cart information, you will need to update the cart information shown to the user. Also, you will alert the user with the total amount due (based on the cart's contents).
 
 ## Bonus Task
 (1 point) The code for the server used for the server side application, is made available at https://github.com/erkartik91/cpen400. The instructions to run the server locally are available in the readme file.
@@ -29,7 +29,7 @@ You need to have the server up and running in your local machine as well as you 
 
 ## Code Quality
 
-(3 points) You should ensure that your JavaScript code follows the best practices around variable/function naming, variable placement, modularization (dividing long code blocks into smaller functions) and comments (your comments should explain why a design choice was taken, instead of how your code works). Your code will be assessed for code quality during marking.
+(3 points) You should ensure that your JavaScript code follows the best practices around variable/function naming, variable placement, modularization (dividing long code blocks into smaller functions) and comments (your comments should explain why a design choice was taken, instead of how your code works). You still need to consider creating DOM elements programmatically (from Assignment 2 onwards) rather than hardcoding them in your HTML if you did not well in your previous assignments. More specifically, HTML dom elements hardcoded as strings in JavaScript will be deducted. Software designs that lead to "copy and paste programming" will be discouraged. Your code will be assessed for code quality during marking.
 
 
 ## Submission instructions:
