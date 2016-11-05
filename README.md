@@ -5,19 +5,19 @@ to fetch the product items. You will need to build on your previous code - no co
 
 ## Tasks
 
-1. **Fetch products from server using AJAX:** (3 points) You will initialize your **product** variable by making an AJAX call to the following url. The **cart** variable will be initialized to empty like the previous assignment. 
+1. **Fetch products from server using AJAX:** (2 points) You will initialize your **product** variable by making an AJAX call to the following url. The **cart** variable should follow the same structure as the previous assignments - you should not make any changes to it. 
   ```
   https://cpen400a.herokuapp.com/products
   
   var cart = {
-    'productName1' : 0,
-    'productName2' : 0,
+    'productName1' : 2,
+    'productName2' : 1,
     ...
   };
   ```
   You **do not** need to keep price information in the cart as that information is already there in the products array. When calculating the total price of the products in cart, you can use the price information from the products array. Please feel free to assign prices to products as you see fit.
 
-2. **Handle Timeout / Error:** (2 points)  The remote server you are fetching the data from is not very reliable. Sometimes, instead of returning the product list the server takes long time, due to which the ajax request times out. Also, sometimes the server returns error 500 instead of the product list. In either case, you will need to make repeated AJAX calls untill you get the list of products from the web server (you can give up after a reasonable number of such repeated tries).
+2. **Handle Timeout / Error:** (3 points)  The remote server you are fetching the data from is not very reliable. Sometimes, instead of returning the product list the server takes long time, due to which the ajax request times out. Also, sometimes the server returns error 500 instead of the product list. In either case, you will need to make repeated AJAX calls untill you get the list of products from the web server (you can give up after a reasonable number of such repeated tries).
 
 3. **Synchronize the price / quantity before checkout:** (5 points) In your show cart modal you need to present the user with a checkout button. When the user clicks on checkout, you will need to make sure that the products are still available in the back store and the prices are updated. You will do that by making another AJAX call to the same url. Therefore, when the user clicks on checkout, you will alert the user with the message showing that you are confirming the final total price as well as the availability.  If there is any price change, you will need to alert the user for each product for which the price changed. For any of the selected products, if the quantity that the user ordered is not available any more, you will change the number of products in the cart to the now available quantity. You will also need to alert the user about the updated quantity as well. The cart variable should also be updated to reflect the revised prices/quantity.
 
@@ -29,7 +29,7 @@ You need to have the server up and running in your local machine as well as you 
 
 ## Code Quality
 
-(3 points) You should ensure that your JavaScript code follows the best practices around variable/function naming, variable placement, modularization (dividing long code blocks into smaller functions) and comments (your comments should explain why a design choice was taken, instead of how your code works). You still need to consider creating DOM elements programmatically (from Assignment 2 onwards) rather than hardcoding them in your HTML if you did not well in your previous assignments. More specifically, HTML dom elements hardcoded as strings in JavaScript will be deducted. Software designs that lead to "copy and paste programming" will be discouraged. Your code will be assessed for code quality during marking.
+(3 points) You should ensure that your JavaScript code follows the best practices around variable/function naming, variable placement, modularization (dividing long code blocks into smaller functions) and comments (your comments should explain why a design choice was taken, instead of how your code works). You still need to consider creating DOM elements programmatically (from Assignment 2 onwards) rather than hardcoding them in your HTML if you did not well in your previous assignments. Additionally, HTML DOM elements should not be  hardcoded as strings in JavaScript either. Your code will be assessed for code quality during marking.
 
 
 ## Submission instructions:
