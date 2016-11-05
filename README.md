@@ -5,7 +5,7 @@ to fetch the product items. You will need to build on your previous code - no co
 
 ## Tasks
 
-1. **Fetch products from server using AJAX:** (2 points) You will initialize your **product** variable by making an AJAX call to the following url. The **cart** variable should follow the same structure as the previous assignments - you should not make any changes to it. 
+1. **Fetch products from server using AJAX:** (2 points) You will initialize your **product** variable by making an AJAX call to the following url. The **cart** variable should follow the same structure as the previous assignments - you should not make any changes to it. When calculating the total price of the products in the cart, use the price information from the products array.
   ```
   https://cpen400a.herokuapp.com/products
   
@@ -15,7 +15,6 @@ to fetch the product items. You will need to build on your previous code - no co
     ...
   };
   ```
-  You **do not** need to keep price information in the cart as that information is already there in the products array. When calculating the total price of the products in cart, you can use the price information from the products array. Please feel free to assign prices to products as you see fit.
 
 2. **Handle Timeout / Error:** (3 points)  The remote server you are fetching the data from is not very reliable. Sometimes, instead of returning the product list the server takes long time, due to which the ajax request times out. Also, sometimes the server returns error 500 instead of the product list. In either case, you will need to make repeated AJAX calls untill you get the list of products from the web server (you can give up after a reasonable number of such repeated tries).
 
